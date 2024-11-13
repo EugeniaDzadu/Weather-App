@@ -4,57 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
         <h1>Weather in <span id="location-name"></span></h1>
     </header>
-    
-    <section>
-        <h2>Current Weather</h2>
-        <p>Main: <span id="weather-main"></span></p>
-        <p>Description: <span id="weather-description"></span></p>
-        <img id="weather-icon" src="" alt="Weather Icon">
-    </section>
-    
-    <section>
-        <h2>Temperature</h2>
-        <p>Current: <span id="temp"></span> K</p>
-        <p>Feels Like: <span id="feels-like"></span> K</p>
-        <p>Min: <span id="temp-min"></span> K</p>
-        <p>Max: <span id="temp-max"></span> K</p>
-    </section>
-    
-    <section>
-        <h2>Additional Details</h2>
-        <p>Pressure: <span id="pressure"></span> hPa</p>
-        <p>Humidity: <span id="humidity"></span>%</p>
-        <p>Visibility: <span id="visibility"></span> meters</p>
-        <p>Cloudiness: <span id="cloudiness"></span>%</p>
-    </section>
-    
-    <section>
-        <h2>Wind</h2>
-        <p>Speed: <span id="wind-speed"></span> m/s</p>
-        <p>Direction: <span id="wind-deg"></span>°</p>
-        <p>Gusts: <span id="wind-gust"></span> m/s</p>
-    </section>
-    
-    <section>
-        <h2>Rain</h2>
-        <p>Last Hour: <span id="rain-1h"></span> mm</p>
-    </section>
-    
-    <section>
-        <h2>Location Coordinates</h2>
-        <p>Longitude: <span id="coord-lon"></span></p>
-        <p>Latitude: <span id="coord-lat"></span></p>
-    </section>
-    
-    <section>
-        <h2>Sunrise and Sunset</h2>
-        <p>Sunrise: <span id="sunrise"></span></p>
-        <p>Sunset: <span id="sunset"></span></p>
-    </section>
+
+    <div class="content">
+        <section>
+            <h2>Current Weather</h2>
+            <p>Main: <span id="weather-main"></span></p>
+            <p>Description: <span id="weather-description"></span></p>
+            <img id="weather-icon" src="" alt="Weather Icon">
+        </section>
+
+        <section>
+            <h2>Temperature</h2>
+            <p>Current: <span id="temp"></span> K</p>
+            <p>Feels Like: <span id="feels-like"></span> K</p>
+            <p>Min: <span id="temp-min"></span> K</p>
+            <p>Max: <span id="temp-max"></span> K</p>
+        </section>
+
+        <section>
+            <h2>Additional Details</h2>
+            <p>Pressure: <span id="pressure"></span> hPa</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Visibility: <span id="visibility"></span> meters</p>
+            <p>Cloudiness: <span id="cloudiness"></span>%</p>
+        </section>
+
+        <section>
+            <h2>Wind</h2>
+            <p>Speed: <span id="wind-speed"></span> m/s</p>
+            <p>Direction: <span id="wind-deg"></span>°</p>
+            <p>Gusts: <span id="wind-gust"></span> m/s</p>
+        </section>
+
+        <section>
+            <h2>Rain</h2>
+            <p>Last Hour: <span id="rain-1h"></span> mm</p>
+        </section>
+
+        <section>
+            <h2>Location Coordinates</h2>
+            <p>Longitude: <span id="coord-lon"></span></p>
+            <p>Latitude: <span id="coord-lat"></span></p>
+        </section>
+
+        <section>
+            <h2>Sunrise and Sunset</h2>
+            <p>Sunrise: <span id="sunrise"></span></p>
+            <p>Sunset: <span id="sunset"></span></p>
+        </section>
+    </div>
 </body>
 </html>
