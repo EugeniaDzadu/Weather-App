@@ -8,8 +8,14 @@
 </head>
 <body>
     <header>
-        <h1>Weather in <span id="location-name"></span></h1>
+        <h1>Weather in <span id="location-name">Default City</span></h1>
     </header>
+
+
+    <div class="city-search">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-button">Search</button>
+    </div>
 
     <div class="content">
         <section>
@@ -21,10 +27,10 @@
 
         <section>
             <h2>Temperature</h2>
-            <p>Current: <span id="temp"></span> K</p>
-            <p>Feels Like: <span id="feels-like"></span> K</p>
-            <p>Min: <span id="temp-min"></span> K</p>
-            <p>Max: <span id="temp-max"></span> K</p>
+            <p>Current: <span id="temp"></span> °C</p>
+            <p>Feels Like: <span id="feels-like"></span> °C</p>
+            <p>Min: <span id="temp-min"></span> °C</p>
+            <p>Max: <span id="temp-max"></span> °C</p>
         </section>
 
         <section>
@@ -52,6 +58,7 @@
             <p>Longitude: <span id="coord-lon"></span></p>
             <p>Latitude: <span id="coord-lat"></span></p>
         </section>
+        
 
         <section>
             <h2>Sunrise and Sunset</h2>
@@ -59,5 +66,7 @@
             <p>Sunset: <span id="sunset"></span></p>
         </section>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
